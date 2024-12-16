@@ -1,4 +1,4 @@
-module github.com/tbd54566975/web5-go
+module github.com/decentralized-identity/web5-go
 
 go 1.22.0
 
