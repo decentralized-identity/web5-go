@@ -3,9 +3,9 @@ package dsa
 import (
 	"fmt"
 
-	"github.com/tbd54566975/web5-go/crypto/dsa/ecdsa"
-	"github.com/tbd54566975/web5-go/crypto/dsa/eddsa"
-	"github.com/tbd54566975/web5-go/jwk"
+	"github.com/decentralized-identity/web5-go/crypto/dsa/ecdsa"
+	"github.com/decentralized-identity/web5-go/crypto/dsa/eddsa"
+	"github.com/decentralized-identity/web5-go/jwk"
 )
 
 const (

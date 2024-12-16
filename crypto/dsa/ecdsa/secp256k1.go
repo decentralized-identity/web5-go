@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/decentralized-identity/web5-go/jwk"
 	_secp256k1 "github.com/decred/dcrd/dcrec/secp256k1/v4"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"
-	"github.com/tbd54566975/web5-go/jwk"
 )
 
 const (

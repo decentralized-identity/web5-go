@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tbd54566975/web5-go/dids/didjwk"
-	"github.com/tbd54566975/web5-go/vc"
+	"github.com/decentralized-identity/web5-go/dids/didjwk"
+	"github.com/decentralized-identity/web5-go/vc"
 )
 
 // Demonstrates how to create, sign, and verify a Verifiable Credential using the vc package.

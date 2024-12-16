@@ -34,7 +34,7 @@ This package mostly exists to maintain parity with the structure of other web5 S
 
 ### Key Generation
 
-the `dsa` package provides [algorithm IDs](https://github.com/TBD54566975/web5-go/blob/5d50ce8f24e4b47b0a8626724e8a571e9b5c847f/crypto/dsa/dsa.go#L11-L14) that can be passed to the `GenerateKey` function e.g.
+the `dsa` package provides [algorithm IDs](https://github.com/decentralized-identity/web5-go/blob/5d50ce8f24e4b47b0a8626724e8a571e9b5c847f/crypto/dsa/dsa.go#L11-L14) that can be passed to the `GenerateKey` function e.g.
 
 ```go
 package main
@@ -42,7 +42,7 @@ package main
 import (
 	"fmt"
         
-        "github.com/tbd54566975/web5-go/crypto/dsa"
+        "github.com/decentralized-identity/web5-go/crypto/dsa"
 )
 
 func main() {
@@ -64,7 +64,7 @@ package main
 import (
 	"fmt"
 
-        "github.com/tbd54566975/web5-go/crypto/dsa"
+        "github.com/decentralized-identity/web5-go/crypto/dsa"
 )
 
 func main() {
@@ -95,7 +95,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/tbd54566975/web5-go/crypto/dsa"
+	"github.com/decentralized-identity/web5-go/crypto/dsa"
 )
 
 func main() {

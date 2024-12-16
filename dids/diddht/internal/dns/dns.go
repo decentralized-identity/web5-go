@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tbd54566975/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
 	"golang.org/x/net/dns/dnsmessage"
 )
 

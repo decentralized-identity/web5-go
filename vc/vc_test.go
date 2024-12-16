@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go/dids/didjwk"
-	"github.com/tbd54566975/web5-go/vc"
+	"github.com/decentralized-identity/web5-go/dids/didjwk"
+	"github.com/decentralized-identity/web5-go/vc"
 )
 
 func TestCreate_Defaults(t *testing.T) {

@@ -19,8 +19,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/tbd54566975/web5-go/didjwk"
-    "github.com/tbd54566975/web5-go/jwt"
+	"github.com/decentralized-identity/web5-go/didjwk"
+    "github.com/decentralized-identity/web5-go/jwt"
 )
 
 func main() {	
@@ -48,8 +48,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/tbd54566975/web5-go/dids"
-    "github.com/tbd54566975/web5-go/jwt"
+	"github.com/decentralized-identity/web5-go/dids"
+    "github.com/decentralized-identity/web5-go/jwt"
 )
 
 func main() {

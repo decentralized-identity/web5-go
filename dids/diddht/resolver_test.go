@@ -73,7 +73,7 @@ func Test_VectorsResolve(t *testing.T) {
 
 func Test_resolve(t *testing.T) {
 
-	// vector taken from https://github.com/TBD54566975/web5-js/blob/91d52aaa9410db5e5f7c3c31ebfe0d4956028496/packages/dids/tests/methods/did-dht.spec.ts#L725
+	// vector taken from https://github.com/decentralized-identity/web5-js/blob/91d52aaa9410db5e5f7c3c31ebfe0d4956028496/packages/dids/tests/methods/did-dht.spec.ts#L725
 	vectors := map[string]string{
 		"did:dht:9tjoow45ef1hksoo96bmzkwwy3mhme95d7fsi3ezjyjghmp75qyo": "ea33e704f3a48a3392f54b28744cdfb4e24780699f92ba7df62fd486d2a2cda3f263e1c6bcbd" +
 			"75d438be7316e5d6e94b13e98151f599cfecefad0b37432bd90a0000000065b0ed1600008400" +

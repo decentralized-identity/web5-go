@@ -3,8 +3,8 @@ package crypto
 import (
 	"fmt"
 
-	"github.com/tbd54566975/web5-go/crypto/dsa"
-	"github.com/tbd54566975/web5-go/jwk"
+	"github.com/decentralized-identity/web5-go/crypto/dsa"
+	"github.com/decentralized-identity/web5-go/jwk"
 )
 
 // KeyManager is an abstraction that can be leveraged to manage/use keys (create, sign etc) as desired per the given use case
@@ -44,7 +44,7 @@ func NewLocalKeyManager() *LocalKeyManager {
 
 // GeneratePrivateKey generates a new private key using the algorithm provided,
 // stores it in the key store and returns the key id
-// Supported algorithms are available in [github.com/tbd54566975/web5-go/crypto/dsa.AlgorithmID]
+// Supported algorithms are available in [github.com/decentralized-identity/web5-go/crypto/dsa.AlgorithmID]
 func (k *LocalKeyManager) GeneratePrivateKey(algorithmID string) (string, error) {
 	var keyAlias string
 

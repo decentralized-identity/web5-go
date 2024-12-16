@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/PaesslerAG/jsonpath"
+	"github.com/decentralized-identity/web5-go/vc"
 	"github.com/santhosh-tekuri/jsonschema/v5"
-	"github.com/tbd54566975/web5-go/vc"
 	"math/rand"
 	"strconv"
 )

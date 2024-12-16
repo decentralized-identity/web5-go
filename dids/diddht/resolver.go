@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/tbd54566975/web5-go/dids/did"
-	"github.com/tbd54566975/web5-go/dids/didcore"
-	"github.com/tbd54566975/web5-go/dids/diddht/internal/dns"
-	"github.com/tbd54566975/web5-go/dids/diddht/internal/pkarr"
+	"github.com/decentralized-identity/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/dids/diddht/internal/dns"
+	"github.com/decentralized-identity/web5-go/dids/diddht/internal/pkarr"
 	"github.com/tv42/zbase32"
 )
 

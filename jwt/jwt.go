@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tbd54566975/web5-go/dids/did"
-	"github.com/tbd54566975/web5-go/dids/didcore"
-	"github.com/tbd54566975/web5-go/jws"
+	"github.com/decentralized-identity/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/jws"
 )
 
 // Decode decodes the 3-part base64url encoded jwt into it's relevant parts
@@ -66,7 +66,7 @@ type SignOpt func(opts *signOpts)
 
 // Purpose is an option that can be provided to Sign to specify that a key from
 // a given DID Document Verification Relationship should be used (e.g. authentication)
-// Purpose is an option that can be passed to [github.com/tbd54566975/web5-go/jws.Sign].
+// Purpose is an option that can be passed to [github.com/decentralized-identity/web5-go/jws.Sign].
 // It is used to select the appropriate key to sign with
 func Purpose(p string) SignOpt {
 	return func(opts *signOpts) {

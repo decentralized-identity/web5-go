@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tbd54566975/web5-go/dids"
+	"github.com/decentralized-identity/web5-go/dids"
 )
 
 type didResolveCMD struct {

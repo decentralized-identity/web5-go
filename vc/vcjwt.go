@@ -7,7 +7,7 @@ import (
 	"slices"
 	"time"
 
-	"github.com/tbd54566975/web5-go/jwt"
+	"github.com/decentralized-identity/web5-go/jwt"
 )
 
 // Verify decodes and verifies the vc-jwt. It checks for the presence of required fields and verifies the jwt.

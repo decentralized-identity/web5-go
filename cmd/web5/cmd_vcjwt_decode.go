@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tbd54566975/web5-go/vc"
+	"github.com/decentralized-identity/web5-go/vc"
 )
 
 type vcjwtDecodeCMD struct {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/decentralized-identity/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/jwt"
 	"github.com/google/uuid"
-	"github.com/tbd54566975/web5-go/dids/did"
-	"github.com/tbd54566975/web5-go/jwt"
 )
 
 // these constants are defined in the W3C Verifiable Credential Data Model specification for:

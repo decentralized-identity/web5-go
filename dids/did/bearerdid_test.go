@@ -4,12 +4,12 @@ import (
 	"testing"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go/crypto/dsa"
-	"github.com/tbd54566975/web5-go/dids/did"
-	"github.com/tbd54566975/web5-go/dids/didcore"
-	"github.com/tbd54566975/web5-go/dids/didjwk"
-	"github.com/tbd54566975/web5-go/jwk"
-	"github.com/tbd54566975/web5-go/jws"
+	"github.com/decentralized-identity/web5-go/crypto/dsa"
+	"github.com/decentralized-identity/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/dids/didjwk"
+	"github.com/decentralized-identity/web5-go/jwk"
+	"github.com/decentralized-identity/web5-go/jws"
 )
 
 func TestToPortableDID(t *testing.T) {

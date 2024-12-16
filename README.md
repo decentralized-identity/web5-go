@@ -37,7 +37,7 @@ Supported Digital Signature Algorithms:
 ## `dids`
 Supported DID Methods:
 * [`did:jwk`](https://github.com/quartzjer/did-jwk/blob/main/spec.md)
-* 🚧 [`did:dht`](https://github.com/TBD54566975/did-dht-method) 🚧
+* 🚧 [`did:dht`](https://github.com/decentralized-identity/did-dht-method) 🚧
 
 ## `jws`
 JWS signing and verification using DIDs
@@ -52,7 +52,7 @@ We use a submodule for test vectors that make sure we follow the appropriate spe
 To set up the submodule, clone using:
 
 ```
-git clone --recurse-submodules git@github.com:TBD54566975/web5-go.git
+git clone --recurse-submodules git@github.com:decentralized-identity/web5-go.git
 ```
 
 If you've already cloned, add submodules: 

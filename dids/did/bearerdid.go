@@ -3,9 +3,9 @@ package did
 import (
 	"fmt"
 
-	"github.com/tbd54566975/web5-go/crypto"
-	"github.com/tbd54566975/web5-go/dids/didcore"
-	"github.com/tbd54566975/web5-go/jwk"
+	"github.com/decentralized-identity/web5-go/crypto"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/jwk"
 )
 
 // BearerDID is a composite type that combines a DID with a KeyManager containing keys

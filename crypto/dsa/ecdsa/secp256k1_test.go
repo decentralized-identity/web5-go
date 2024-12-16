@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go/crypto/dsa/ecdsa"
-	"github.com/tbd54566975/web5-go/jwk"
+	"github.com/decentralized-identity/web5-go/crypto/dsa/ecdsa"
+	"github.com/decentralized-identity/web5-go/jwk"
 )
 
 func TestSECP256K1GeneratePrivateKey(t *testing.T) {
@@ -26,7 +26,7 @@ func TestSECP256K1BytesToPublicKey_Bad(t *testing.T) {
 }
 
 func TestSECP256K1BytesToPublicKey_Uncompressed(t *testing.T) {
-	// vector taken from https://github.com/TBD54566975/web5-js/blob/dids-new-crypto/packages/crypto/tests/fixtures/test-vectors/secp256k1/bytes-to-public-key.json
+	// vector taken from https://github.com/decentralized-identity/web5-js/blob/dids-new-crypto/packages/crypto/tests/fixtures/test-vectors/secp256k1/bytes-to-public-key.json
 	publicKeyHex := "0479be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8"
 	pubKeyBytes, err := hex.DecodeString(publicKeyHex)
 	assert.NoError(t, err)
@@ -41,7 +41,7 @@ func TestSECP256K1BytesToPublicKey_Uncompressed(t *testing.T) {
 }
 
 func TestSECP256K1PublicKeyToBytes(t *testing.T) {
-	// vector taken from https://github.com/TBD54566975/web5-js/blob/dids-new-crypto/packages/crypto/tests/fixtures/test-vectors/secp256k1/bytes-to-public-key.json
+	// vector taken from https://github.com/decentralized-identity/web5-js/blob/dids-new-crypto/packages/crypto/tests/fixtures/test-vectors/secp256k1/bytes-to-public-key.json
 	jwk := jwk.JWK{
 		KTY: "EC",
 		CRV: ecdsa.SECP256K1JWACurve,

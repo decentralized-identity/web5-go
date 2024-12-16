@@ -24,8 +24,8 @@ package main
 
 import (
     "fmt"
-    "github.com/tbd54566975/web5-go/didjwk"
-    "github.com/tbd54566975/web5-go/jws"
+    "github.com/decentralized-identity/web5-go/didjwk"
+    "github.com/decentralized-identity/web5-go/jws"
 )
 
 func main() {	
@@ -56,8 +56,8 @@ package main
 
 import (
     "fmt"
-    "github.com/tbd54566975/web5-go/didjwk"
-    "github.com/tbd54566975/web5-go/jws"
+    "github.com/decentralized-identity/web5-go/didjwk"
+    "github.com/decentralized-identity/web5-go/jws"
 )
 
 func main() {	
@@ -86,8 +86,8 @@ package main
 
 import (
     "fmt"
-    "github.com/tbd54566975/web5-go/didjwk"
-    "github.com/tbd54566975/web5-go/jws"
+    "github.com/decentralized-identity/web5-go/didjwk"
+    "github.com/decentralized-identity/web5-go/jws"
 )
 
 func main() {	
@@ -116,8 +116,8 @@ package main
 
 import (
     "fmt"
-    "github.com/tbd54566975/web5-go/didjwk"
-    "github.com/tbd54566975/web5-go/jws"
+    "github.com/decentralized-identity/web5-go/didjwk"
+    "github.com/decentralized-identity/web5-go/jws"
 )
 
 func main() {	

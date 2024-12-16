@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go/crypto"
-	"github.com/tbd54566975/web5-go/crypto/dsa"
+	"github.com/decentralized-identity/web5-go/crypto"
+	"github.com/decentralized-identity/web5-go/crypto/dsa"
 )
 
 func TestGeneratePrivateKey(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go/crypto/dsa/eddsa"
-	"github.com/tbd54566975/web5-go/jwk"
+	"github.com/decentralized-identity/web5-go/crypto/dsa/eddsa"
+	"github.com/decentralized-identity/web5-go/jwk"
 )
 
 func TestED25519BytesToPublicKey_Bad(t *testing.T) {
@@ -17,7 +17,7 @@ func TestED25519BytesToPublicKey_Bad(t *testing.T) {
 }
 
 func TestED25519BytesToPublicKey_Good(t *testing.T) {
-	// vector taken from https://github.com/TBD54566975/web5-js/blob/dids-new-crypto/packages/crypto/tests/fixtures/test-vectors/ed25519/bytes-to-public-key.json
+	// vector taken from https://github.com/decentralized-identity/web5-js/blob/dids-new-crypto/packages/crypto/tests/fixtures/test-vectors/ed25519/bytes-to-public-key.json
 	pubKeyHex := "7d4d0e7f6153a69b6242b522abbee685fda4420f8834b108c3bdae369ef549fa"
 	pubKeyBytes, err := hex.DecodeString(pubKeyHex)
 	assert.NoError(t, err)
@@ -31,7 +31,7 @@ func TestED25519BytesToPublicKey_Good(t *testing.T) {
 }
 
 func TestED25519PublicKeyToBytes(t *testing.T) {
-	// vector taken from: https://github.com/TBD54566975/web5-spec/blob/main/test-vectors/crypto_ed25519/sign.json
+	// vector taken from: https://github.com/decentralized-identity/web5-spec/blob/main/test-vectors/crypto_ed25519/sign.json
 	jwk := jwk.JWK{
 		KTY: "OKP",
 		CRV: eddsa.ED25519JWACurve,

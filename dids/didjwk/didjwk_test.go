@@ -2,14 +2,14 @@ package didjwk_test
 
 import (
 	"fmt"
-	"github.com/tbd54566975/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/dids/did"
 	"testing"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go"
-	"github.com/tbd54566975/web5-go/dids/didcore"
-	"github.com/tbd54566975/web5-go/dids/didjwk"
-	"github.com/tbd54566975/web5-go/jwk"
+	"github.com/decentralized-identity/web5-go"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/dids/didjwk"
+	"github.com/decentralized-identity/web5-go/jwk"
 )
 
 func TestCreate(t *testing.T) {
