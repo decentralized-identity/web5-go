@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go/dids/didjwk"
-	"github.com/tbd54566975/web5-go/dids/didweb"
-	"github.com/tbd54566975/web5-go/jws"
+	"github.com/decentralized-identity/web5-go/dids/didjwk"
+	"github.com/decentralized-identity/web5-go/dids/didweb"
+	"github.com/decentralized-identity/web5-go/jws"
 )
 
 func TestDecode(t *testing.T) {

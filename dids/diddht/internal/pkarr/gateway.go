@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/tbd54566975/web5-go/dids/diddht/internal/bep44"
+	"github.com/decentralized-identity/web5-go/dids/diddht/internal/bep44"
 )
 
 // Client is a client for publishing and fetching BEP44 messages to and from a Pkarr relay server.

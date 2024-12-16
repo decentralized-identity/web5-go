@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tbd54566975/web5-go/dids/did"
-	"github.com/tbd54566975/web5-go/vc"
+	"github.com/decentralized-identity/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/vc"
 )
 
 type vcCreateCMD struct {

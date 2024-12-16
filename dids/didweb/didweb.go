@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tbd54566975/web5-go/crypto"
-	"github.com/tbd54566975/web5-go/crypto/dsa"
-	_did "github.com/tbd54566975/web5-go/dids/did"
-	"github.com/tbd54566975/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/crypto"
+	"github.com/decentralized-identity/web5-go/crypto/dsa"
+	_did "github.com/decentralized-identity/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
 )
 
 // CreateOption is the type returned from each individual option function
@@ -239,8 +239,8 @@ func (r Resolver) ResolveWithContext(ctx context.Context, uri string) (didcore.R
 		return didcore.ResolutionResultWithError("invalidDid"), didcore.ResolutionError{Code: "invalidDid"}
 	}
 
-	// TODO item 6 from https://w3c-ccg.github.io/did-method-web/#read-resolve https://github.com/TBD54566975/web5-go/issues/94
-	// TODO item 7 from https://w3c-ccg.github.io/did-method-web/#read-resolve https://github.com/TBD54566975/web5-go/issues/95
+	// TODO item 6 from https://w3c-ccg.github.io/did-method-web/#read-resolve https://github.com/decentralized-identity/web5-go/issues/94
+	// TODO item 7 from https://w3c-ccg.github.io/did-method-web/#read-resolve https://github.com/decentralized-identity/web5-go/issues/95
 
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {

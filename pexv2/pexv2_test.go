@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/alecthomas/assert/v2"
+	"github.com/decentralized-identity/web5-go"
+	"github.com/decentralized-identity/web5-go/pexv2"
 	testify "github.com/stretchr/testify/assert"
-	"github.com/tbd54566975/web5-go"
-	"github.com/tbd54566975/web5-go/pexv2"
 )
 
 type PresentationInput struct {

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
 )
 
 func TestAddVerificationMethod(t *testing.T) {

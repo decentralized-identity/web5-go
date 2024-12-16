@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tbd54566975/web5-go/dids/did"
-	"github.com/tbd54566975/web5-go/dids/diddht"
-	"github.com/tbd54566975/web5-go/dids/didjwk"
-	"github.com/tbd54566975/web5-go/dids/didweb"
+	"github.com/decentralized-identity/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/dids/diddht"
+	"github.com/decentralized-identity/web5-go/dids/didjwk"
+	"github.com/decentralized-identity/web5-go/dids/didweb"
 )
 
 type didCreateCMD struct {

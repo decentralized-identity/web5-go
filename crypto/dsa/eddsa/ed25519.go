@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tbd54566975/web5-go/jwk"
+	"github.com/decentralized-identity/web5-go/jwk"
 )
 
 const (

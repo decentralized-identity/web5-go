@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go"
-	"github.com/tbd54566975/web5-go/dids/didjwk"
-	"github.com/tbd54566975/web5-go/jwt"
-	"github.com/tbd54566975/web5-go/vc"
+	"github.com/decentralized-identity/web5-go"
+	"github.com/decentralized-identity/web5-go/dids/didjwk"
+	"github.com/decentralized-identity/web5-go/jwt"
+	"github.com/decentralized-identity/web5-go/vc"
 )
 
 type vector struct {

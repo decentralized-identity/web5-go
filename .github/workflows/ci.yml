@@ -33,7 +33,7 @@ jobs:
         uses: codecov/codecov-action@v4.0.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          slug: TBD54566975/web5-go
+          slug: decentralized-identity/web5-go
   lint:
     name: Lint
     timeout-minutes: 10

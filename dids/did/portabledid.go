@@ -1,8 +1,8 @@
 package did
 
 import (
-	"github.com/tbd54566975/web5-go/dids/didcore"
-	"github.com/tbd54566975/web5-go/jwk"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/jwk"
 )
 
 // PortableDID is a serializable BearerDID. VerificationMethod contains the private key

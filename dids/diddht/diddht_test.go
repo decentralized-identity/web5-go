@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/tbd54566975/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/dids/did"
 	"net/http"
 	"net/http/httptest"
 	"testing"
@@ -13,10 +13,10 @@ import (
 	"io"
 
 	"github.com/alecthomas/assert/v2"
-	"github.com/tbd54566975/web5-go/crypto"
-	"github.com/tbd54566975/web5-go/crypto/dsa"
-	"github.com/tbd54566975/web5-go/dids/didcore"
-	"github.com/tbd54566975/web5-go/dids/diddht/internal/bep44"
+	"github.com/decentralized-identity/web5-go/crypto"
+	"github.com/decentralized-identity/web5-go/crypto/dsa"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/dids/diddht/internal/bep44"
 	"golang.org/x/net/dns/dnsmessage"
 )
 
@@ -54,7 +54,7 @@ func makeDNSMessage(answersOpt ...DHTTXTResourceOpt) dnsmessage.Message {
 }
 
 func TestDHTResolve(t *testing.T) {
-	// vector taken from https://github.com/TBD54566975/web5-js/blob/dids-new-crypto/packages/crypto/tests/fixtures/test-vectors/secp256k1/bytes-to-public-key.json
+	// vector taken from https://github.com/decentralized-identity/web5-js/blob/dids-new-crypto/packages/crypto/tests/fixtures/test-vectors/secp256k1/bytes-to-public-key.json
 	publicKeyHexSecp256k1 := "0479be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8"
 	pubKeyBytesSecp256k1, err := hex.DecodeString(publicKeyHexSecp256k1)
 	assert.NoError(t, err)

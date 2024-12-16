@@ -4,11 +4,11 @@ import (
 	"context"
 	"sync"
 
-	"github.com/tbd54566975/web5-go/dids/did"
-	"github.com/tbd54566975/web5-go/dids/didcore"
-	"github.com/tbd54566975/web5-go/dids/diddht"
-	"github.com/tbd54566975/web5-go/dids/didjwk"
-	"github.com/tbd54566975/web5-go/dids/didweb"
+	"github.com/decentralized-identity/web5-go/dids/did"
+	"github.com/decentralized-identity/web5-go/dids/didcore"
+	"github.com/decentralized-identity/web5-go/dids/diddht"
+	"github.com/decentralized-identity/web5-go/dids/didjwk"
+	"github.com/decentralized-identity/web5-go/dids/didweb"
 )
 
 // Resolve resolves the provided DID URI. This function is capable of resolving
